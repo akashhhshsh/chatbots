@@ -25,8 +25,9 @@ openai (For accessing the API of NeMo/Mistral)
 Installation Commands
 
 You can install the required libraries using pip:
-
 pip install streamlit openai
+
+
 
 How to Run
 
@@ -35,10 +36,11 @@ Clone this repository or download the project files.
 Navigate to the project directory in your terminal.
 
 Run the Streamlit app using the command:
-
 streamlit run app.py
 
 Open the app in your browser at http://localhost:8501 (this will automatically open).
+
+
 
 Project Structure
 
@@ -49,13 +51,13 @@ bot_image.jpg: (Optional) A local image file used for the chatbot's UI (replace 
 Configuration
 
 The API is configured using the following:
-
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
     api_key="YOUR_API_KEY_HERE"
 )
-
 Replace YOUR_API_KEY_HERE with your valid NVIDIA/OpenAI API key.
+
+
 
 How to Use
 
@@ -84,3 +86,6 @@ Streamlit: For the lightweight and powerful UI framework.
 OpenAI NeMo: For the robust model APIs.
 
 NVIDIA: For providing the Mistral model.
+
+
+
