@@ -20,3 +20,14 @@ You can install the required libraries using pip:
 
 ```bash
 pip install streamlit openai
+
+## How to Run
+
+1. Clone this repository or download the project files.
+2. Navigate to the project directory in your terminal.
+3. Run the Streamlit app using the command:
+
+   ```bash
+   streamlit run app.py
+
+
