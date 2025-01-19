@@ -30,4 +30,21 @@ pip install streamlit openai
    ```bash
    streamlit run app.py
 
+## Project Structure
+
+- `app.py`: The main Streamlit script for the chatbot.
+- `bot_image.jpg`: (Optional) A local image file used for the chatbot's UI (replace with your own image if needed).
+
+---
+
+## Configuration
+
+The API is configured using the following:
+
+```python
+client = OpenAI(
+    base_url="https://integrate.api.nvidia.com/v1",
+    api_key="YOUR_API_KEY_HERE"
+)
+
 
