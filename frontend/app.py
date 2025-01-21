@@ -3,7 +3,7 @@ from openai import OpenAI
 
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key="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",
+    api_key="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",
 )
 
 

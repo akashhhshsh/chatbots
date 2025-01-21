@@ -66,7 +66,7 @@ st.markdown("""
 # Initialize OpenAI client
 client = OpenAI(
     base_url="https://integrate.api.nvidia.com/v1",
-    api_key="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",
+    api_key="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",
 )
 
 def get_stream(prompt, character):
